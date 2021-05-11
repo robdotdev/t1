@@ -134,7 +134,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.3rem 2.3rem;
+    padding: 1rem 2rem;
     border: 1px solid var(--color-dark);
     border-radius: 10rem; }
     .sidebar__btnPhone--num {
@@ -281,7 +281,8 @@ html {
     max-width: 144rem;
     margin: 0 auto;
     height: 100%;
-    padding: 0 1.6rem;
+    padding: 10rem 1.6rem;
+    padding-bottom: 10rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: max-content max-content max-content;
@@ -351,6 +352,7 @@ html {
     margin: 0 auto;
     display: grid;
     padding: 0 1.6rem;
+    padding-bottom: 10rem;
     grid-template-columns: 1.5fr 2fr;
     grid-template-areas: 'left1 right1'; }
     @media only screen and (max-width: 50em) {
@@ -501,7 +503,7 @@ html {
           line-height: 2rem; }
 
 #contact {
-  height: 85%; }
+  height: 85vh; }
   #contact .contact {
     max-width: 144rem;
     height: 100%;
@@ -515,7 +517,8 @@ html {
       #contact .contact {
         grid-template-columns: 1fr;
         grid-template-rows: max-content 1fr 1fr;
-        grid-template-areas: 'title' 'details' 'map'; } }
+        grid-template-areas: 'title' 'details' 'map';
+        padding: 0 0; } }
     #contact .contact__title {
       grid-area: title;
       text-align: center;
@@ -591,7 +594,7 @@ html {
             color: #94abb5; }
 
 #footer {
-  height: 15%;
+  height: 15vh;
   background-color: var(--color-dark); }
   #footer .footer {
     max-width: 144rem;
